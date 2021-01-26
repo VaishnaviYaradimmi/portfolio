@@ -1,0 +1,100 @@
+*{ 
+     margin: 0;
+     padding: 0;
+     font-family: Century Gothic;
+}
+
+header{
+	width:98.7%;
+	height:63px;
+	background:gray;
+	position:fixed;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+	padding-top:20px;
+	padding-right:30px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:black;
+	padding : 5px 20px;
+	border : 1px solid black;
+	transition: 0.6s ease;
+}
+ul li a : hover{
+	background-color: white;
+	color: #000;
+}
+.logo img{
+	float:left;
+	width:150px;
+	height: 45px;
+	padding-top:12px;
+	padding-left:50px;
+}
+section{ 
+float: left;
+width: 100%;
+height:100%;
+margin-top:63px;
+background-size:cover;
+scroll-behavior: smooth;
+overflow-y : scroll;
+}
+
+section img{
+	width:100%;
+}
+
+.container {
+  position: relative;
+  font-family: Arial, rans-scrif,arial;
+}
+
+.text-block{
+  position: absolute;
+  font-size:70px;
+  float:left;
+  bottom: 400px;
+  left: 90px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+h5{
+	display:inline-block;
+	font-style:oblique;
+	background: crimson;
+	display:inline-block;
+	animation-name: mymove;
+    animation-duration: 2s;
+    position: relative;
+
+}
+h5: nth-child(1){
+	animation-duration:2s;
+}
+
+h5: nth-child(2){
+	animation-duration:3s;
+}
+
+h5: nth-child(3){
+	animation-duration:4s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 120px;}
+}
